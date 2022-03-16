@@ -14,8 +14,7 @@ public class Animal {
 	private String kingdom;
 	private String[] add;
 	
-	public Animal(String name, String specie, String genus, String family, String order, String classx, String phylum,
-			String kingdom, String[] add) {
+	public Animal(String name, String specie, String genus, String family, String order, String classx, String phylum, String kingdom, String[] add) {
 		super();
 		this.name = name;
 		this.specie = specie;
