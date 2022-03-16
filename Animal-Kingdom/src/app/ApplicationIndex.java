@@ -1,6 +1,6 @@
 package app;
 
-import app.src.taxonomy.entity.Animal;
+import app.src.tax.entity.Animal;
 
 public class ApplicationIndex {
 

@@ -1,4 +1,4 @@
-package app.src.taxonomy.entity;
+package app.src.tax.entity;
 
 import java.util.Arrays;
 
