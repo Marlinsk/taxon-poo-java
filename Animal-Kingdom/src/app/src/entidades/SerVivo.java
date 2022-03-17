@@ -1,4 +1,8 @@
-package app.src.tax.entity;
+package app.src.entidades;
+
+import app.src.taxon.Classes;
+import app.src.taxon.Filos;
+import app.src.taxon.Reinos;
 
 public class SerVivo {
 	
@@ -7,12 +11,11 @@ public class SerVivo {
 	private String genero;
 	private String familia;
 	private String ordem;
-	private String classe;
-	private String[] classificacao_adicional;
-	private String filo;
-	private String reino;
+	private Classes classe;
+	private Filos filo;
+	private Reinos reino;
 	
-	public SerVivo(String nome, String especie, String genero, String familia, String ordem, String classe, String[] classificacao_adicional, String filo, String reino) {
+	public SerVivo(String nome, String especie, String genero, String familia, String ordem, Classes classe, Filos filo, Reinos reino) {
 		super();
 		this.nome = nome;
 		this.especie = especie;
@@ -20,7 +23,6 @@ public class SerVivo {
 		this.familia = familia;
 		this.ordem = ordem;
 		this.classe = classe;
-		this.classificacao_adicional = classificacao_adicional;
 		this.filo = filo;
 		this.reino = reino;
 	}
@@ -65,35 +67,27 @@ public class SerVivo {
 		this.ordem = ordem;
 	}
 
-	public String getClasse() {
+	public Classes getClasse() {
 		return classe;
 	}
 
-	public void setClasse(String classe) {
+	public void setClasse(Classes classe) {
 		this.classe = classe;
 	}
 
-	public String[] getClassificacao_adicional() {
-		return classificacao_adicional;
-	}
-
-	public void setClassificacao_adicional(String[] classificacao_adicional) {
-		this.classificacao_adicional = classificacao_adicional;
-	}
-
-	public String getFilo() {
+	public Filos getFilo() {
 		return filo;
 	}
 
-	public void setFilo(String filo) {
+	public void setFilo(Filos filo) {
 		this.filo = filo;
 	}
 
-	public String getReino() {
+	public Reinos getReino() {
 		return reino;
 	}
 
-	public void setReino(String reino) {
+	public void setReino(Reinos reino) {
 		this.reino = reino;
 	}
 }
