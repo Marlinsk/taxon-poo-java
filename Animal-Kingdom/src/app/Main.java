@@ -19,24 +19,29 @@ public class Main {
 		
 		Taxon Guaxinim = new Taxon("Guaxinim", "Procyon lotor", "Procyon", "Procyonidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		
+		Taxon Leao_do_atlas = new Taxon("Leão-do-atlas", "Panthera leo leo", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		Taxon Leopardo = new Taxon("Leopardo", "Panthera pardus", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		Taxon Leopardo_das_neves = new Taxon("Leopardo-das-neves", "Panthera uncia", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
-		Taxon Leao_do_atlas = new Taxon("Leão-do-atlas", "Panthera leo leo", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		
 		Taxon UrsoPardo = new Taxon("Urso-pardo", "Ursus arctos", "Ursus", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		
-		System.out.println(AraraCaninde);
-		System.out.println(AraraAzulGrande);
-		System.out.println(AraraVermelha);
-		System.out.println(BaleiaAzul);
-		System.out.println(BaleiaJubarte);
-		System.out.println(Cachalote);
-		System.out.println(Elefante_da_savana);
-		System.out.println(Guaxinim);
-		System.out.println(Leopardo);
-		System.out.println(Leopardo_das_neves);
-		System.out.println(Leao_do_atlas);
-		System.out.println(UrsoPardo);
+		
+		Taxon[] aves = { AraraCaninde, AraraAzulGrande, AraraVermelha };
+		Taxon[] mamiferos = { BaleiaAzul, BaleiaAzul, BaleiaJubarte, Cachalote, Elefante_da_savana, Guaxinim, Leao_do_atlas, Leopardo, Leopardo_das_neves, UrsoPardo };
+		
+		System.out.println("Registro de Aves:");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n" + "------------------------------------------------" + "\n");
+		
+		System.out.println("Registro de Mamíferos:");
+		
+		for (Taxon t: mamiferos) {
+			System.out.println(t);
+		}
 		
 	}
 }
