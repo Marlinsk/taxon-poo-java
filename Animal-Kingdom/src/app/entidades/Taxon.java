@@ -1,21 +1,17 @@
-package app.src.entidades;
+package app.entidades;
 
-import app.src.taxon.Classes;
-import app.src.taxon.Filos;
-import app.src.taxon.Reinos;
-
-public class SerVivo {
+public class Taxon {
 	
 	private String nome;
 	private String especie;
 	private String genero;
 	private String familia;
 	private String ordem;
-	private Classes classe;
-	private Filos filo;
-	private Reinos reino;
+	private String classe;
+	private String filo;
+	private String reino;
 	
-	public SerVivo(String nome, String especie, String genero, String familia, String ordem, Classes classe, Filos filo, Reinos reino) {
+	public Taxon(String nome, String especie, String genero, String familia, String ordem, String classe, String filo, String reino) {
 		super();
 		this.nome = nome;
 		this.especie = especie;
@@ -67,27 +63,33 @@ public class SerVivo {
 		this.ordem = ordem;
 	}
 
-	public Classes getClasse() {
+	public String getClasse() {
 		return classe;
 	}
 
-	public void setClasse(Classes classe) {
+	public void setClasse(String classe) {
 		this.classe = classe;
 	}
 
-	public Filos getFilo() {
+	public String getFilo() {
 		return filo;
 	}
 
-	public void setFilo(Filos filo) {
+	public void setFilo(String filo) {
 		this.filo = filo;
 	}
 
-	public Reinos getReino() {
+	public String getReino() {
 		return reino;
 	}
 
-	public void setReino(Reinos reino) {
+	public void setReino(String reino) {
 		this.reino = reino;
+	}
+
+	@Override
+	public String toString() {
+		return "Ficha Taxonômica [nome:" + nome + ", especie: " + especie + ", genero: " + genero + ", familia: " + familia
+				+ ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + "]";
 	}
 }
