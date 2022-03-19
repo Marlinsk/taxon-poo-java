@@ -1,4 +1,4 @@
-package negocio;
+package app.negocio;
 
 public interface Registros {
 	

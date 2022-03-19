@@ -1,7 +1,7 @@
-package codex.dados;
+package app.codex.dados;
 
 import app.entidades.Taxon;
-import negocio.Registros;
+import app.negocio.Registros;
 
 public class Aves implements Registros {
 
