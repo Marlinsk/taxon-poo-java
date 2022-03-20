@@ -166,6 +166,8 @@ public class Mamiferos implements Registros {
 		
 		Taxon Girafa = new Taxon("Girafa", "Giraffa", "Giraffa", "Giraffidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
 		
+		Taxon Glis = new Taxon("Glis", "Glis glis", "Glis", "Gliridae", "Rodentia", "Mammalia", "Chordata", "Animalia");
+		
 		Taxon Gnu_de_cauda_preta = new Taxon("Gnu-de-cauda-preta", "Connochaetes taurinus", "Connochaetes", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
 		
 		Taxon Gorila_das_montanhas = new Taxon("Gorila-das-montanhas", "Gorilla beringei beringei", "Gorilla", "Hominidae", "Primates", "Mammalia", "Chordata", "Animalia");
@@ -175,7 +177,7 @@ public class Mamiferos implements Registros {
 		Taxon Golfinho_comum_de_bico_longo = new Taxon("Golfinho-comum-de-bico-longo", "Delphinus capensis", "Delphinus", "Delphinidae", "Cetacea", "Mammalia", "Chordata", "Animalia");
 		Taxon Golfinho_comum_de_bico_curto = new Taxon("Golfinho-comum-de-bico-curto", "Delphinus delphis", "Delphinus", "Delphinidae", "Cetacea", "Mammalia", "Chordata", "Animalia");
 		
-		Taxon[] mammalia = { Gamba_de_orelha_branca, Gamba_de_orelha_preta, GambaListrado, GatoSelvagem, GazelaBranca, Gazela_da_montanha, GazelaIndiana, Girafa, Gnu_de_cauda_preta, Gorila_das_montanhas, Guaxinim, Golfinho_comum_de_bico_curto, Golfinho_comum_de_bico_longo };
+		Taxon[] mammalia = { Gamba_de_orelha_branca, Gamba_de_orelha_preta, GambaListrado, GatoSelvagem, GazelaBranca, Gazela_da_montanha, GazelaIndiana, Girafa, Glis, Gnu_de_cauda_preta, Gorila_das_montanhas, Guaxinim, Golfinho_comum_de_bico_curto, Golfinho_comum_de_bico_longo };
 		
 		System.out.println("Registros de nomes de mamíferos que começam com a letra G: " + "\n");
 		
@@ -363,26 +365,115 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroR() {
-		// TODO Auto-generated method stub
+		
+		Taxon Raposa_afega = new Taxon("Raposa-afegã", "Vulpes cana", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Raposa_ana = new Taxon("Raposa-anã", "Vulpes macrotis", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Raposa_das_estepes = new Taxon("Raposa-das-estepes", "Vulpes corsac", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Raposa_do_artico = new Taxon("Raposa-do-ártico", "Vulpes lagopus", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Raposa_do_himalaia = new Taxon("Raposa-do-himalaia", "Vulpes ferrilata", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon RaposaVeloz = new Taxon("Raposa-veloz", "Vulpes velox", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon RaposaVermelha = new Taxon("Raposa-vermelha", "Vulpes vulpes", "Vulpes", "Canidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon RatoAlmiscarado = new Taxon("Rato-almiscarado", "Ondatra zibethicus", "Ondatra", "Cricetidae", "Rodentia", "Mammalia", "Chordata", "Animalia");	
+		Taxon Rato_canguru_de_San_Quintin = new Taxon("Rato-canguru de San Quintin", "Dipodomys gravipes", "Dipodomys", "Heteromyidae", "Rodentia", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Rena = new Taxon("Rena", "Rangifer tarandus", "Rangifer", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon RatufaIndica = new Taxon("Ratufa indica", "Ratufa indica", "Ratufa", "Sciuridae", "Rodentia", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Rinoceronte_branco = new Taxon("Rinoceronte-branco", "Ceratotherium simum", "Ceratotherium", "Rhinocerotidae", "Perissodactyla", "Mammalia", "Chordata", "Animalia");	
+		Taxon Rinoceronte_indiano = new Taxon("Rinoceronte-indiano", "Rhinocerus unicornis", "Rhinocerus", "Rhinocerotidae", "Perissodactyla", "Mammalia", "Chordata", "Animalia");	
+		Taxon Rinoceronte_negro = new Taxon("Rinoceronte-negro", "Diceros bicornis", "Diceros", "Rhinocerotidae", "Perissodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Raposa_afega, Raposa_ana, Raposa_das_estepes, Raposa_do_artico, Raposa_do_himalaia, RaposaVeloz, RaposaVermelha, RatoAlmiscarado, Rato_canguru_de_San_Quintin, Rena, RatufaIndica, Rinoceronte_branco, Rinoceronte_indiano, Rinoceronte_negro };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra R: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroS() {
-		// TODO Auto-generated method stub
+		
+		Taxon Sagui_da_serra_claro = new Taxon("Sagui-da-serra-claro", "Callithrix flaviceps", "Callithrix", "Callitrichidae", "Primates", "Mammalia", "Chordata", "Animalia");	
+		Taxon Sagui_de_tufo_branco = new Taxon("Sagui-de-tufo-branco", "Callithrix jacchus", "Callithrix", "Callitrichidae", "Primates", "Mammalia", "Chordata", "Animalia");	
+		Taxon Sagui_de_tufos_pretos = new Taxon("Sagui-de-tufos-pretos", "Callithrix penicillata", "Callithrix", "Callitrichidae", "Primates", "Mammalia", "Chordata", "Animalia");	
+		Taxon Sagui_de_wied = new Taxon("Sagui-de-wied", "Callithrix kuhlii", "Callithrix", "Callitrichidae", "Primates", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Sagui_da_serra_claro, Sagui_de_tufo_branco, Sagui_de_tufos_pretos, Sagui_de_wied };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra S: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroT() {
-		// TODO Auto-generated method stub
+		
+		Taxon Tamandua_bandeira = new Taxon("Tamanduá-bandeira", "Myrmecophaga tridactyla", "Myrmecophaga", "Myrmecophagidae", "Pilosa", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tamandua_do_norte = new Taxon("Tamanduá-do-norte", "Tamandua mexicana", "Tamandua", "Myrmecophagidae", "Pilosa", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tamandua_mirim = new Taxon("Tamanduá-mirim", "Tamandua tetradactyla", "Tamandua", "Myrmecophagidae", "Pilosa", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Tamia_de_colarinho_cinza = new Taxon("Tâmia-de-colarinho-cinza", "Neotamias cinereicollis", "Neotamias", "Sciuridae", "Rodentia", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Tatu_bola_do_nordeste = new Taxon("Tatu-bola-do-nordeste", "Tolypeutes tricinctus", "Tolypeutes", "Clamiforídeos", "Cingulata", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tatu_canastra = new Taxon("Tatu-canastra", "Priodontes maximus", "Priodontes", "Clamiforídeos", "Cingulata", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tatu_galinha = new Taxon("Tatu-galinha", "Dasypus novemcinctus", "Dasypus", "Dasypodidae", "Cingulata", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tatu_mirim = new Taxon("Tatu-mirim", "Dasypus septemcinctus", "Dasypus", "Dasypodidae", "Cingulata", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tatupeba = new Taxon("Tatupeba", "Euphractus sexcinctus", "Euphractus", "Clamiforídeos", "Cingulata", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Texugo_americano = new Taxon("Texugo-americano", "Taxidea taxus", "Taxidea", "Mustelidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Texugo_euroasiatico = new Taxon("Texugo-euroasiático", "Meles meles", "Meles", "Mustelidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Tigre_de_bali = new Taxon("Tigre-de-bali", "Panthera tigris sondaica", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tigre_de_bengala = new Taxon("Tigre-de-bengala", "Panthera tigris tigris", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tigre_do_sul_da_china = new Taxon("Tigre-do-sul-da-china", "Panthera tigris amoyensis", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tigre_do_caspio = new Taxon("Tigre-do-cáspio", "Panthera tigris virgata", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tigre_malaio = new Taxon("Tigre-malaio", "Panthera tigris jacksoni", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Tigre_siberiano = new Taxon("Tigre-siberiano", "Panthera tigris altaica", "Panthera", "Felidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon Toupeira_nariz_de_estrela = new Taxon("Toupeira-nariz-de-estrela", "Condylura cristata", "Condylura", "Talpidae", "Soricomorpha", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Tamandua_bandeira, Tamandua_do_norte, Tamandua_mirim, Tamia_de_colarinho_cinza, Tatu_bola_do_nordeste, Tatu_canastra, Tatu_galinha, Tatu_mirim, Tatupeba, Texugo_americano, Texugo_euroasiatico, Tigre_de_bali, Tigre_de_bengala, Tigre_do_sul_da_china, Tigre_do_caspio, Tigre_malaio, Tigre_siberiano, Toupeira_nariz_de_estrela };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra T: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroU() {
 		
+		Taxon Urso_de_Oculos = new Taxon("Urso-de-óculos", "Tremarctos ornatus", "Tremarctos", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");	
+		Taxon Urso_europeu = new Taxon("Urso-europeu", "Ursus arctos arctos", "Ursus", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		Taxon UrsoNegro = new Taxon("Urso-negro", "Ursus americanus", "Ursus", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
 		Taxon UrsoPardo = new Taxon("Urso-pardo", "Ursus arctos", "Ursus", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		Taxon Urso_polar = new Taxon("Urso-polar", "Ursus maritimus", "Ursus", "Ursidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		
+		Taxon[] mammalia = { Urso_de_Oculos, Urso_europeu, UrsoNegro, UrsoPardo, Urso_polar };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra U: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
