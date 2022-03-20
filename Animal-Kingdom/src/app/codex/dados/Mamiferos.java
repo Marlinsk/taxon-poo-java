@@ -79,9 +79,11 @@ public class Mamiferos implements Registros {
 		Taxon CastorAmericano = new Taxon("Castor-americano", "Castor canadensis", "Castor", "Castoridae", "Rodentia", "Mammalia", "Chordata", "Animalia");
 		Taxon Castor_da_eurasia = new Taxon("Castor-da-eurásia", "Castor fiber", "Castor", "Castoridae", "Rodentia", "Mammalia", "Chordata", "Animalia");
 		
+		Taxon Cervo_de_Eld = new Taxon("Cervo-de-Eld", "Panolia eldii", "Panolia", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
 		Taxon Cervo_de_topete = new Taxon("Cervo-de-topete", "Elaphodus cephalophus", "Elaphodus", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
-		
-		Taxon Coala = new Taxon("Coala", "Phascolarctos cinereus", "Phascolarctos", "Phascolarctidae", "Diprotodontia", "Mammalia", "Chordata", "Animalia");
+		Taxon Cervo_do_pantanal = new Taxon("Cervo-do-pantanal", "Blastocerus dichotomus", "Blastocerus", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
+		Taxon Cervo_malhado_de_visayan = new Taxon("Cervo-malhado-de-visayan", "Rusa alfredi", "Rusa", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
+		Taxon Cervo_vermelho = new Taxon("Cervo-vermelho", "Cervus elaphus", "Cervus", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");
 		
 		Taxon CoelhoAnao = new Taxon("Coelho-anão", "Brachylagus idahoensis", "Brachylagus", "Leporidae", "Lagomorpha", "Mammalia", "Chordata", "Animalia");
 		Taxon Coelho = new Taxon("Coelho", "Oryctolagus", "Oryctolagus", "Leporidae", "Lagomorpha", "Mammalia", "Chordata", "Animalia");
@@ -95,7 +97,7 @@ public class Mamiferos implements Registros {
 		
 		Taxon ChimpanzeComum = new Taxon("Chimpanzé-comum", "Pan troglodytes", "Pan", "Hominidae", "Primates", "Mammalia", "Chordata", "Animalia");
 		
-		Taxon[] mammalia = { Cabra_das_pedras, Cabra_montesa, Cachalote, CameloBactriano, Canguru_vermelho, Canguru_de_Bennett, Canguru_cinza_oriental, Camundongo, Carneiro_de_dall, CarneiroSelvagem, CastorAmericano, Castor_da_eurasia, Cervo_de_topete, Coala, CoelhoAnao, Coelho, Coiote, Coiote_do_nordeste, CoioteOriental, ChacalDourado, ChacalListrado, ChimpanzeComum };
+		Taxon[] mammalia = { Cabra_das_pedras, Cabra_montesa, Cachalote, CameloBactriano, Canguru_vermelho, Canguru_de_Bennett, Canguru_cinza_oriental, Camundongo, Carneiro_de_dall, CarneiroSelvagem, CastorAmericano, Castor_da_eurasia, Cervo_de_Eld, Cervo_de_topete, Cervo_do_pantanal, Cervo_malhado_de_visayan, Cervo_vermelho, CoelhoAnao, Coelho, Coiote, Coiote_do_nordeste, CoioteOriental, ChacalDourado, ChacalListrado, ChimpanzeComum };
 		
 		System.out.println("Registros de nomes de mamíferos que começam com a letra C: " + "\n");
 		
@@ -146,7 +148,20 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroF() {
-		// TODO Auto-generated method stub
+		
+		Taxon Foca_anelada = new Taxon("Foca-anelada", "Pusa hispida", "Pusa", "Phocidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		Taxon Foca_de_weddell = new Taxon("Foca-de-weddell", "Leptonychotes weddellii", "Leptonychotes", "Phocidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		Taxon Foca_leopardo = new Taxon("Foca-leopardo", "Hydrurga leptonyx", "Hydrurga", "Phocidae", "Carnivora", "Mammalia", "Chordata", "Animalia");
+		
+		Taxon[] mammalia = { Foca_anelada, Foca_de_weddell, Foca_leopardo };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra F: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -208,7 +223,20 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroI() {
-		// TODO Auto-generated method stub
+		
+		Taxon Ibex_asiatico = new Taxon("Íbex-da-núbia", "Capra ibex sibirica", "Capra", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		Taxon Ibex_dos_alpes = new Taxon("Íbex-dos-alpes", "Capra ibex", "Capra", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		Taxon Ibex_da_nubia = new Taxon("Íbex-da-núbia", "Capra ibex nubiana", "Capra", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Ibex_asiatico, Ibex_da_nubia, Ibex_dos_alpes };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra I: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -228,12 +256,23 @@ public class Mamiferos implements Registros {
 		}
 		
 		System.out.println("\n");
+		
 	}
 
 	@Override
 	public void RegistroK() {
-		// TODO Auto-generated method stub
 		
+		Taxon Koala = new Taxon("Koala", "Phascolarctos cinereus", "Phascolarctos", "Phascolarctidae", "Diprotodontia", "Mammalia", "Chordata", "Animalia");
+		
+		Taxon[] mammalia = { Koala };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra K: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 	}
 
 	@Override
@@ -280,7 +319,9 @@ public class Mamiferos implements Registros {
 		Taxon Mico_leao_dourado = new Taxon("Mico-leão-dourado", "Leontopithecus rosalia", "Leontopithecus", "Cebidae", "Primates", "Mammalia", "Chordata", "Animalia");
 		Taxon Mico_leao_de_cara_dourada = new Taxon("Mico-leão-de-cara-dourada", "Leontopithecus chrysomelas", "Leontopithecus", "Cebidae", "Primates", "Mammalia", "Chordata", "Animalia");	
 		
-		Taxon[] mammalia = { MacacoDourado, MacacoPrego, Macaco_prego_amarelo, Mico_leao_dourado, Mico_leao_de_cara_dourada };
+		Taxon Markhor = new Taxon("Markhor", "Capra falconeri", "Capra", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { MacacoDourado, MacacoPrego, Macaco_prego_amarelo, Markhor, Mico_leao_dourado, Mico_leao_de_cara_dourada };
 		
 		System.out.println("Registros de nomes de mamíferos que começam com a letra M: " + "\n");
 		
