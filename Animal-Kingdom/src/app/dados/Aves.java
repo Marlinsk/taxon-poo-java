@@ -123,7 +123,9 @@ public class Aves implements Registros {
 		Taxon Gaviao_asa_de_telha = new Taxon("Gavião-asa-de-telha", "Parabuteo unicinctus", "Parabuteo", "Accipitridae", "Accipitriformes", "Aves", "Chordata", "Animalia");
 		Taxon Gaviao_peneira = new Taxon("Gavião-peneira", "Elanus leucurus", "Elanus", "Accipitridae", "Accipitriformes", "Aves", "Chordata", "Animalia");
 		
-		Taxon[] aves = { GaioAzul, GaviaoBelo, GaviaoBranco, Gaviaozinho, Gaviao_pombo_pequeno, Gaviao_asa_de_telha, Gaviao_peneira };
+		Taxon Gralha_preta = new Taxon("Gralha-preta", "Corvus corone", "Corvus", "Corvidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { GaioAzul, GaviaoBelo, GaviaoBranco, Gaviaozinho, Gaviao_pombo_pequeno, Gaviao_asa_de_telha, Gaviao_peneira, Gralha_preta };
 		
 		System.out.println("Registros de nomes de aves que começam com a letra G: " + "\n");
 		
@@ -312,7 +314,20 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroU() {
-		// TODO Auto-generated method stub
+		
+		Taxon Urubu_de_cabeça_amarela = new Taxon("Urubu-de-cabeça-amarela", "Cathartes burrovianus", "Cathartes", "Cathartidae", "Accipitriformes", "Aves", "Chordata", "Animalia");
+		Taxon Urubu_de_cabeça_vermelha = new Taxon("Urubu-de-cabeça-vermelha", "Cathartes  aura", "Cathartes", "Cathartidae", "Accipitriformes", "Aves", "Chordata", "Animalia");
+		Taxon Urubu_rei = new Taxon("Urubu-rei", "Sarcoramphus papa", "Sarcoramphus", "Cathartidae", "Accipitriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Urubu_de_cabeça_amarela, Urubu_de_cabeça_vermelha, Urubu_rei };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra U: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
