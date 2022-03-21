@@ -81,13 +81,35 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroD() {
-		// TODO Auto-generated method stub
+		
+		Taxon Dançador_de_cauda_graduada = new Taxon("Dançador-de-cauda-graduada", "Ceratopipra chloromeros", "Ceratopipra", "Pipridae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Dançador_de_cauda_graduada };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra D: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroE() {
-		// TODO Auto-generated method stub
+		
+		Taxon Estalador_do_norte = new Taxon("Estalador-do-norte", "Corythopis torquatus", "Corythopis", "Tyrannidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Estalador_do_norte };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra E: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -156,13 +178,35 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroI() {
-		// TODO Auto-generated method stub
+		
+		Taxon Irre = new Taxon("Irré", "Myiarchus swainsoni", "Myiarchus", "Tyrannidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Irre };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra I: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroJ() {
-		// TODO Auto-generated method stub
+		
+		Taxon Joao_de_barro = new Taxon("João-de-barro", "Furnarius rufus", "Furnarius", "Furnariidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Joao_de_barro };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra J: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -174,25 +218,67 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroL() {
-		// TODO Auto-generated method stub
+		
+		Taxon Lenheiro_da_serra_do_cipo = new Taxon("Lenheiro-da-serra-do-cipó", "Asthenes luizae", "Asthenes", "Furnariidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Lenheiro_da_serra_do_cipo };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra L: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroM() {
-		// TODO Auto-generated method stub
+		
+		Taxon Mineirinho = new Taxon("Mineirinho", "Charitospiza eucosma", "Charitospiza", "Thraupidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Mineirinho };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra M: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroN() {
-		// TODO Auto-generated method stub
+		
+		Taxon Neinei = new Taxon("Neinei", "Megarynchus pitangua", "Megarynchus", "Tyrannidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Neinei };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra N: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
 		
 	}
 
 	@Override
 	public void RegistroO() {
-		// TODO Auto-generated method stub
+		
+		Taxon Olho_falso = new Taxon("Olho-falso", "Hemitriccus diops", "Hemitriccus", "Tyrannidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Olho_falso };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra O: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -244,7 +330,18 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroQ() {
-		// TODO Auto-generated method stub
+		
+		Taxon Quebra_nozes = new Taxon("Quebra-nozes", "Nucifraga", "Nucifraga", "Corvidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Quebra_nozes };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra Q: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -333,7 +430,18 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroV() {
-		// TODO Auto-generated method stub
+		
+		Taxon Verdilhao = new Taxon("Verdilhão", "Chloris chloris", "Chloris", "Fringillidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Verdilhao };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra V: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -357,7 +465,18 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroZ() {
-		// TODO Auto-generated method stub
+		
+		Taxon Zaragateiro_da_china = new Taxon("Zaragateiro-da-china", "Garrulax canorus", "Garrulax", "Leiothrichidae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Zaragateiro_da_china };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra Z: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 }
