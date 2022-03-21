@@ -212,7 +212,18 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroK() {
-		// TODO Auto-generated method stub
+		
+		Taxon Kadavu_fantail = new Taxon("Kadavu fantail", "Rhipidura personata", "Rhipidura", "Rhipiduridae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Kadavu_fantail };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra K: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -453,13 +464,35 @@ public class Aves implements Registros {
 
 	@Override
 	public void RegistroX() {
-		// TODO Auto-generated method stub
+		
+		Taxon Xexeu = new Taxon("Xexéu", "Cacicus cela", "Cacicus", "Icteridae", "Passeriformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Xexeu };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra X: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroY() {
-		// TODO Auto-generated method stub
+		
+		Taxon Yelkouan_shearwater = new Taxon("Yelkouan shearwater", "Puffinus yelkouan", "Puffinus", "Procellariidae", "Procellariiformes", "Aves", "Chordata", "Animalia");
+		
+		Taxon[] aves = { Yelkouan_shearwater };
+		
+		System.out.println("Registros de nomes de aves que começam com a letra Y: " + "\n");
+		
+		for (Taxon t: aves) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
