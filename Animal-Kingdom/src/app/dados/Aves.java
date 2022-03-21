@@ -1,4 +1,4 @@
-package app.codex.dados;
+package app.dados;
 
 import app.entidades.Taxon;
 import app.negocio.Registros;
