@@ -335,7 +335,18 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroN() {
-		// TODO Auto-generated method stub
+		
+		Taxon Narval = new Taxon("Narval", "Monodon monoceros", "Monodon", "Monodontidae", "Cetacea", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Narval };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra N: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -367,6 +378,7 @@ public class Mamiferos implements Registros {
 		}
 		
 		System.out.println("\n");
+		
 	}
 
 	@Override
@@ -520,13 +532,36 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroV() {
-		// TODO Auto-generated method stub
+		
+		Taxon Veado_mateiro_pequeno = new Taxon("Veado-mateiro-pequeno", "Mazama bororo", "Mazama", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		Taxon Veado_mateiro = new Taxon("Veado-mateiro", "Mazama americana", "Mazama", "Cervidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Veado_mateiro, Veado_mateiro_pequeno };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra V: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
 	@Override
 	public void RegistroW() {
-		// TODO Auto-generated method stub
+		
+		Taxon Wallaby = new Taxon("Wallaby", "Wallabia bicolor", "Wallabia", "Macropodidae", "Diprotodontia", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Wallaby };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra W: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
@@ -538,7 +573,18 @@ public class Mamiferos implements Registros {
 
 	@Override
 	public void RegistroY() {
-		// TODO Auto-generated method stub
+		
+		Taxon Yak = new Taxon("Yak", "Bos grunniens", "Bos", "Bovidae", "Artiodactyla", "Mammalia", "Chordata", "Animalia");	
+		
+		Taxon[] mammalia = { Yak };
+		
+		System.out.println("Registros de nomes de mamíferos que começam com a letra Y: " + "\n");
+		
+		for (Taxon t: mammalia) {
+			System.out.println(t);
+		}
+		
+		System.out.println("\n");
 		
 	}
 
