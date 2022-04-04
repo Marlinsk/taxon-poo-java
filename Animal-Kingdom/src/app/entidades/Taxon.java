@@ -10,18 +10,6 @@ public class Taxon {
 	private String classe;
 	private String filo;
 	private String reino;
-	
-	public Taxon(String nome, String especie, String genero, String familia, String ordem, String classe, String filo, String reino) {
-		super();
-		this.nome = nome;
-		this.especie = especie;
-		this.genero = genero;
-		this.familia = familia;
-		this.ordem = ordem;
-		this.classe = classe;
-		this.filo = filo;
-		this.reino = reino;
-	}
 
 	public String getNome() {
 		return nome;
@@ -86,10 +74,22 @@ public class Taxon {
 	public void setReino(String reino) {
 		this.reino = reino;
 	}
+	
+	public Taxon(String nome, String especie, String genero, String familia, String ordem, String classe, String filo, String reino) {
+		super();
+		this.nome = nome;
+		this.especie = especie;
+		this.genero = genero;
+		this.familia = familia;
+		this.ordem = ordem;
+		this.classe = classe;
+		this.filo = filo;
+		this.reino = reino;
+	}
 
 	@Override
 	public String toString() {
-		return "Ficha Taxonômica [nome:" + nome + ", especie: " + especie + ", genero: " + genero + ", familia: " + familia
+		return nome + " [" + "especie: " + especie + ", genero: " + genero + ", familia: " + familia
 				+ ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + "]";
 	}
 }
