@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import app.entidades.Taxon;
-import app.metodos.LerArquivos;
 
 public class Main {
 

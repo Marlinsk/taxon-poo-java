@@ -1,4 +1,4 @@
-package app.negocio;
+package app;
 
 public interface ClassesTaxon {
 	

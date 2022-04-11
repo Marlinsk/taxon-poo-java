@@ -1,4 +1,4 @@
-package app.metodos;
+package app;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,6 +1,6 @@
 package app.codex;
 
-import app.negocio.ClassesTaxon;
+import app.ClassesTaxon;
 
 public class Codex implements ClassesTaxon {
 
