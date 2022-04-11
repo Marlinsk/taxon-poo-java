@@ -11,7 +11,7 @@ public class LerArquivos {
 	
 	public static void LerArquivoArtropodesCSV(List<Taxon> artropodes) throws Exception{
         try{
-            String path = "C:/Users/Marlinsk/git/animal-kingdown-poo-java/Animal-Kingdom/files/Artrópodes.csv";
+            String path = "C://Users/Marlinsk/git/animal-kingdown-poo-java/Animal-Kingdom/files/Artrópodes.csv";
             BufferedReader br = new BufferedReader(new FileReader(path));
             String linha = "";
             while((linha = br.readLine()) != null){
