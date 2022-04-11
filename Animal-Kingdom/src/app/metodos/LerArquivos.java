@@ -1,4 +1,4 @@
-package app.funcoes;
+package app.metodos;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -9,7 +9,7 @@ import app.entidades.Taxon;
 
 public class LerArquivos {
 	
-	public static void LerArquivoArtropodesCSV(List<Taxon> artropodes) throws Exception{
+	public static void LerArquivoArtropodes(List<Taxon> artropodes) throws Exception{
         try{
             String path = "C://Users/Marlinsk/git/animal-kingdown-poo-java/Animal-Kingdom/files/Artrópodes.csv";
             BufferedReader br = new BufferedReader(new FileReader(path));
