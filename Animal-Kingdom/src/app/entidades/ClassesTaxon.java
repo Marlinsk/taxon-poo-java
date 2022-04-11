@@ -1,4 +1,4 @@
-package app;
+package app.entidades;
 
 public interface ClassesTaxon {
 	
