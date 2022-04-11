@@ -1,5 +1,7 @@
 package app.entidades;
 
+import java.util.Objects;
+
 public class Taxon {
 	
 	private String nome;
@@ -10,6 +12,23 @@ public class Taxon {
 	private String classe;
 	private String filo;
 	private String reino;
+	
+	public Taxon(String nome, String especie, String genero, String familia, String ordem, String classe, String filo, String reino) {
+		super();
+		this.nome = nome;
+		this.especie = especie;
+		this.genero = genero;
+		this.familia = familia;
+		this.ordem = ordem;
+		this.classe = classe;
+		this.filo = filo;
+		this.reino = reino;
+	}
+
+	@Override
+	public String toString() {
+		return nome + " [" + "espécie: " + especie + ", gênero: " + genero + ", família: " + familia + ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + "]";
+	}
 
 	public String getNome() {
 		return nome;
@@ -74,22 +93,24 @@ public class Taxon {
 	public void setReino(String reino) {
 		this.reino = reino;
 	}
-	
-	public Taxon(String nome, String especie, String genero, String familia, String ordem, String classe, String filo, String reino) {
-		super();
-		this.nome = nome;
-		this.especie = especie;
-		this.genero = genero;
-		this.familia = familia;
-		this.ordem = ordem;
-		this.classe = classe;
-		this.filo = filo;
-		this.reino = reino;
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(classe, especie, familia, filo, genero, nome, ordem, reino);
 	}
 
 	@Override
-	public String toString() {
-		return nome + " [" + "especie: " + especie + ", genero: " + genero + ", familia: " + familia
-				+ ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + "]";
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Taxon other = (Taxon) obj;
+		return Objects.equals(classe, other.classe) && Objects.equals(especie, other.especie)
+				&& Objects.equals(familia, other.familia) && Objects.equals(filo, other.filo)
+				&& Objects.equals(genero, other.genero) && Objects.equals(nome, other.nome)
+				&& Objects.equals(ordem, other.ordem) && Objects.equals(reino, other.reino);
 	}
 }
