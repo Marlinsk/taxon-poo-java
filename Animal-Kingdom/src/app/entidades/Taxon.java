@@ -27,7 +27,7 @@ public class Taxon {
 
 	@Override
 	public String toString() {
-		return nome + " [" + "espécie: " + especie + ", gênero: " + genero + ", família: " + familia + ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + "]";
+		return "nome: " + nome + ", espécie: " + especie + ", gênero: " + genero + ", família: " + familia + ", ordem: " + ordem + ", classe: " + classe + ", filo: " + filo + ", reino: " + reino + ";";
 	}
 
 	public String getNome() {
