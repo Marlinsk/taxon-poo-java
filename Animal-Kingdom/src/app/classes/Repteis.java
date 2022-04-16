@@ -1,5 +1,5 @@
 package app.classes;
 
-public interface Repteis {
+public class Repteis {
 	
 }
