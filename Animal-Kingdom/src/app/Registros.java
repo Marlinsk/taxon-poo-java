@@ -8,6 +8,6 @@ public class Registros {
 	
 	public static void todosRegistros(List<Taxon> classe) throws Exception {
 		SelectSort.ordemAlfabeticaNome(classe);
-		Colecao.dadosCompletos(classe);
+		Colecao.todosDados(classe);
 	}
 }	
