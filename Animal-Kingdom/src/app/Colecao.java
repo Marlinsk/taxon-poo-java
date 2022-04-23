@@ -6,7 +6,8 @@ import app.entidades.Taxon;
 
 public class Colecao {
 	
-	public static void dadosCompletos(List<Taxon> classe) {
+	public static void todosDados(List<Taxon> classe) {
+		System.out.println("Todos os dados disponíveis:");
 		for(int i = 0; i < classe.size(); i++) {
 			System.out.println(classe.get(i).toString());
 		}
